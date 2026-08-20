@@ -8,4 +8,4 @@ The repository includes scripts for cleaning and harmonising plant trait data, a
 This work contributes to a broader effort to make African ecosystem data more usable for model evaluation, parameterisation, and decision-relevant environmental modelling.
 
 
------------------------------------------------# 
+#-----------------------------------------------# 
