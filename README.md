@@ -7,7 +7,20 @@ The repository includes scripts for cleaning and harmonising plant trait data, a
 
 This work contributes to a broader effort to make African ecosystem data more usable for model evaluation, parameterisation, and decision-relevant environmental modelling.  
 
-lhkjvgjhvv
 
+_________________________________________________________________________________________________________________________________________________________________________
 
-#-----------------------------------------------# 
+The repository contains four folders as described below:
+
+# scripts
+This folder contains 7 scripts used for the analysis in this study and they follow in sequential order
+
+# PFT_mapping_lookup_table
+This folder contains the lookup table used for mapping species to PFT group. The lookup table is the published looked up table Akhabue, E.F., Cunliffe, A.M., Bett-Williams, K. et al. Critical classification parameters linking species to Plant Functional Type in African ecosystems. Sci Data 13, 336 (2026). https://doi.org/10.1038/s41597-026-06728-z
+
+# Jules_default_simulation_output
+This folder contains the output of the simulation runs of JULES default configuration
+
+# Reparameterized_simulation_output
+This folder contains the output of the simulation runs of the reparameterized configuration
+
