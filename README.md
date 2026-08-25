@@ -21,6 +21,21 @@ This folder contains 7 scripts used for the analysis in this study and they foll
     2_Trait_climate_variability.R
     Prepares the trait dataset matched with mean annual temperature (MAT) and mean annual precipitation (MAP) and visualises the climate space represented by the observations. It produces a hexagonal-density plot of the MAT–MAP climate envelope covered by the trait dataset.
 
+    3_GAMM_model_analysis.R
+    Fits generalised additive models to evaluate nonlinear variation in LMA and Nmass across MAT, MAP, and aridity index, using a three-dimensional tensor-product smooth and a species-level random-effect smooth. The script performs model diagnostics and generates predicted trait surfaces across MAT–     MAP space at selected levels of aridity index.
+    
+    4_JULES_reparameterization_analysis.R
+    Processes observed flux-tower data together with output from the default and African trait-informed JULES simulations across the study sites. It harmonises temporal coverage and units, calculates correlation, bias and RMSE against observations, and produces site-level time-series comparisons for     GPP, ecosystem respiration, sensible heat, latent heat, evapotranspiration and reference evapotranspiration.
+    
+    5_metrics_compare_with_years.R
+    Compares GPP performance between the default and trait-informed JULES simulations using correlation, RMSE and bias across the flux-tower sites. Sites are grouped by ecosystem type and accompanied by the number of observational years, producing a summary figure showing how model performance           changes following reparameterisation.
+    
+    6_vcmax and slope and intercept.R
+    Calculates leaf nitrogen per unit area and the resulting maximum Rubisco carboxylation capacity at 25 °C (Vcmax25) for each PFT using both JULES default traits and African TRY-derived median LMA and Nmass values. The calculations retain the JULES PFT-specific intercept and slope parameters,          allowing the physiological consequences of changing the two trait parameters to be compared directly.
+    
+    7_site_map.R
+    Creates a map of the African flux-tower sites used for the JULES evaluation and reparameterisation analysis. Sites are labelled by site code and distinguished according to ecosystem type, and the resulting map is saved as a publication-ready image.
+
     
 
 # PFT_mapping_lookup_table
