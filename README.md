@@ -47,3 +47,14 @@ This folder contains the output of the simulation runs of JULES default configur
 # Reparameterized_simulation_output
 This folder contains the output of the simulation runs of the reparameterized configuration
 
+
+
+# Software environment
+This project uses renv to record and reproduce the R package environment used for analyses
+the renv.lock file records the package versions used for the analyses. the reproducibility files are:
+
+        renv.lock - records the R package dependencies and package versions in the project.
+        .Rprofile - automatically activates the project-specific renv environment when the project is opened.
+        renv/activate.R - supports activation and bootstrapping of the environment.
+        renv/settings.json - stores project-specific renv configuration settings.
+        renv/.gitignore – prevents machine-specific package libraries and other local renv files from being tracked by Git.
