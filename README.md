@@ -58,3 +58,6 @@ the renv.lock file records the package versions used for the analyses. the repro
         renv/activate.R - supports activation and bootstrapping of the environment.
         renv/settings.json - stores project-specific renv configuration settings.
         renv/.gitignore – prevents machine-specific package libraries and other local renv files from being tracked by Git.
+
+
+This repo also contains a Compressed archive file named "trunk.tar.gz" of the final Rose suite configuration used to run the JULES simulations for this study. It contains the suite configuration, metadata, and associated files required to reproduce the model setup.
